@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'white-font';
+    font-style: normal;
+    font-weight: 400;
+    src: url('white-font.ttf');
+}
+
+body {
+    font-family:'white-font', sans-serif ! important;
+    font-size:1.5em;
+    color:#606060;
+    font-weight:100;
+}
+
+.wt-list-wrapper, .wt-list, .wt-list-item, .wt-list-item-first, .wt-list-item-input, .wt-list-item-text {
+    width:100%;
+    margin:0px;
+    padding:4px 8px;
+}
+
+.wt-all-list-item {
+    width:100%;
+    margin:0px;
+}
+
+li .wt-all-list-item {
+    padding:0px 0px ! important;
+}
+
+.wt-list-wrapper {
+}
+
+.wt-list {
+}
+
+.wt-list-item {
+}
+
+.wt-list-item, .wt-all-list-item {
+    cursor:pointer;
+    background-color:#ffffff;
+    -webkit-transition:background-color 1.0s ease-out;
+    -moz-transition:background-color 1.0s ease-out;
+    -o-transition:background-color 1.0s ease-out;
+    transition:background-color 1.0s ease-out;
+    text-shadow:0px 0px 4px #ececec;
+}
+
+.wt-list-item:hover, .wt-all-list-item:hover {
+    background-color:#f4f2ab;
+    -webkit-transition:background-color 0.1s ease-in;
+    -moz-transition:background-color 0.1s ease-in;
+    -o-transition:background-color 0.1s ease-in;
+    transition:background-color 0.1s ease-in;
+}
+
+.wt-list-item-input {
+    border:0px;
+}
+
+.wt-list-item-text {
+}
+
+.wt-list-item-chk-done, .wt-list-item-chk-strike {
+    vertical-align:middle;
+}
+
+.wt-list-item-chk-done {
+    margin-right:8px ! important;
+}
+
+.wt-list-item-chk-strike {
+    margin-right:8px ! important;
+}
+
+.wt-strike {
+    opacity:0.5;
+}
+
+.wt-text {
+    min-width:95%;
+}
+
+.wt-list-item-input:focus, wt-list-item-input:active {
+    outline:0;
+}
+
+.label-remind {
+    color:black;
+    background-color:#e27f51;
+    font-weight:bold;
+}
+
+.label-label {
+    color:black;
+    font-weight:bold;
+    background-color:#d8c5e5;
+}
+
+.label-bug {
+    color:white;
+    font-weight:bold;
+    background-color:#ea7777;
+}
+
+.label-feature {
+    color:white;
+    font-weight:bold;
+    background-color:#56a0ea;
+}
+
+.label-enhancement, .label-improvement {
+    color:white;
+    font-weight:bold;
+    background-color:#2fbf69;
+}
+
+.label-priority {
+    color:white;
+    background-color:#55accc;
+    font-weight:bold;
+}
+
+.menu-toggle {
+    padding:8px;
+}
+
+.burger {
+    margin-right:16px;
+}
+
+.search-button-list-item {
+    margin-top:4px;
+    margin-bottom:16px;
+}
+
+.search-input-list-item {
+    padding-left:8px;
+    margin-bottom:16px;
+}
+
+.timestamp {
+    color:silver;
+    font-size:0.75em;
+}
+
+.wt-strikes-header {
+    font-size:1.5em;
+}
+
+code {
+    color:#404040 ! important;
+}
+
+.btn, button, i, .active {
+    outline:0;
+}

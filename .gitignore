@@ -1,0 +1,12 @@
+vendor/
+composer.lock
+config.js
+config.php
+compile_js.bash
+compile_js.php
+jobs/
+watch-js.sh
+*.swp
+white-font.ttf
+TODO
+cache.manifest

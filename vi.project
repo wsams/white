@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vim www/index.php www/css/white.css js-src/white.js www/services.php README.md src/White/White.php bin/white-server.php bin/config.php bin/example.config.php bin/run.s www/js/config.js www/js/example.config.js lib/white.php www/cache.manifest
